@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>编程技能 on WithME</title><link>https://xiaokuili.github.io/tags/%E7%BC%96%E7%A8%8B%E6%8A%80%E8%83%BD/</link><description>Recent content in 编程技能 on WithME</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2023 WithME</copyright><lastBuildDate>Tue, 29 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaokuili.github.io/tags/%E7%BC%96%E7%A8%8B%E6%8A%80%E8%83%BD/index.xml" rel="self" type="application/rss+xml"/><item><title>列表</title><link>https://xiaokuili.github.io/leetcode-tour/list/</link><pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate><guid>https://xiaokuili.github.io/leetcode-tour/list/</guid><description>静态Arrays # array用来连续存储数据。在严格类型语言例如java，c++， c#等，arrays初始化必须声明大小。这就意味着，列表大小一旦声明不能改变，如果容量到达，不可以再存储。弱语言类型例如Python和Javascript没有静态Array，我们下一个章节讨论
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>编程技能 on WithME</title><link>https://xiaokuili.github.io/tags/%E7%BC%96%E7%A8%8B%E6%8A%80%E8%83%BD/</link><description>Recent content in 编程技能 on WithME</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2023 WithME</copyright><lastBuildDate>Wed, 30 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaokuili.github.io/tags/%E7%BC%96%E7%A8%8B%E6%8A%80%E8%83%BD/index.xml" rel="self" type="application/rss+xml"/><item><title>导读</title><link>https://xiaokuili.github.io/leetcode-tour/start/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><guid>https://xiaokuili.github.io/leetcode-tour/start/</guid><description>玩游戏时会上瘾的。如果玩过游戏的话。
+leetcode也是游戏，而且不过是一个普通高中智商的游戏，但是必须通过新手村。
+假如一个rpg游戏，新手村会告诉你，游戏的大致规则，装备的等级玩法，什么时候去刷什么怪物，用什么技能，出什么装备等
+leetcode新手村，同样会告诉，知识点的等级，什么时候去做什么样的题目，用什么模版等。只要过了新手村，就知道怎么玩leetcode。
+但是新手村很难过，除非上瘾
+触发 # 你知道吗？微信有一个功能，你喜欢的女孩的提示音，和其他人的不同
+微信当然没有这个功能，是你给微信添加了这个功能，当提示音响起的时候，你会迫不及待的去打开手机，打开微信。你心甘情愿的被这个声音控制，然后执行后续一些列动作
+你真的会骗自己吗？
+对工作不稳定的恐惧。 对海岛，旅居，新鲜事的向往 对年收入100w的生活的好奇 之前带一个人一起刷题，所以责任感让我必须每天投入 流程 # 心流
+我最爱的一个例子
+21. Merge Two Sorted Lists
+这是一道简单题，需要合并两个增序链表，当做完这道题后，会掌握一个merge(l1,l2)的写法，当然现在不需要知道。
+23. Merge k Sorted Lists
+这是一道困难题，合并[l1,l2,l3,l4] ,应该如何做呢。下面是伪代码</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://xiaokuili.github.io/leetcode-tour/start/featured.png"/></item><item><title>列表</title><link>https://xiaokuili.github.io/leetcode-tour/list/</link><pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate><guid>https://xiaokuili.github.io/leetcode-tour/list/</guid><description>静态Arrays # array用来连续存储数据。在严格类型语言例如java，c++， c#等，arrays初始化必须声明大小。这就意味着，列表大小一旦声明不能改变，如果容量到达，不可以再存储。弱语言类型例如Python和Javascript没有静态Array，我们下一个章节讨论
 让我们学习array对应的操作，他们有效并且有用。最常用的操作是
 Reading Deletion Insertion Reading # # initialize myArray myArray = [1,3,5] # access an element, where i is the index of the desired value myArray[i] 只要通过index访问元素，时间复杂度就是常量。这是因为每一个myArray的index被映射到一个RAM的address 。这是一个单一的操作，在语法分析中我们称为O(1).</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://xiaokuili.github.io/leetcode-tour/list/featured.png"/></item><item><title>链表</title><link>https://xiaokuili.github.io/leetcode-tour/link/</link><pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate><guid>https://xiaokuili.github.io/leetcode-tour/link/</guid><description>单向链表 # 链表是另一个数据结构，像列表一样顺序存储元素在，但是也有不同。
 第一个不同是，链表通过ListNode对象组成，这个对象包含两个属性：
